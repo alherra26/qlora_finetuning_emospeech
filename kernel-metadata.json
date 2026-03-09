@@ -1,0 +1,20 @@
+{
+  "id": "alherra26/lora-sft-llama3",
+  "title": "LoRa SFT Llama3",
+  "code_file": "lora-sft-llama3.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "alherra26/emospeech-train",
+    "alherra26/emospeech-v2"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [
+    "meta/llama-3/transformers/8b-chat-hf/1"
+  ]
+}
